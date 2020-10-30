@@ -1,0 +1,66 @@
+<?php
+
+namespace {ns};
+
+use CodeIgniter\CLI\BaseCommand;
+use CodeIgniter\CLI\CLI;
+
+/**
+ * Creates a new command file.
+ *
+ * @package App\Commands
+ */
+class {name} extends BaseCommand
+{
+    /**
+     * The group the command is lumped under
+     * when listing commands.
+     *
+     * @var string
+     */
+    protected $group = '{group}';
+
+    /**
+     * The Command's name
+     *
+     * @var string
+     */
+    protected $name = '{command}';
+
+    /**
+     * the Command's short description
+     *
+     * @var string
+     */
+    protected $description = 'Create a new command class.';
+
+    /**
+     * the Command's usage
+     *
+     * @var string
+     */
+    protected $usage = '{command} [class_name] [options]';
+
+    /**
+     * the Command's Arguments
+     *
+     * @var array
+     */
+    protected $arguments = [
+        'class_name' => 'The command file name',
+    ];
+
+    /**
+     * the Command's Options
+     *
+     * @var array
+     */
+    protected $options = [
+        //
+    ];
+
+    public function run(array $params = [])
+    {
+        //
+    }
+}

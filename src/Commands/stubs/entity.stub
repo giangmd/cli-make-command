@@ -1,0 +1,24 @@
+<?php
+
+namespace {ns};
+
+use CodeIgniter\Entity;
+
+class {name} extends Entity
+{
+    protected $dates = [
+        //
+    ];
+
+    protected $casts = [
+        //
+    ];
+
+    protected $attributes = [
+        //
+    ];
+
+    protected $datamap = [
+        //
+    ];
+}

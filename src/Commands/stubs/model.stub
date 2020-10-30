@@ -1,0 +1,55 @@
+<?php
+
+namespace {ns};
+
+use CodeIgniter\Model;
+
+class {name} extends Model
+{
+    protected $table = '{table}';
+
+    protected $DBGroup = '{dbgroup}';
+
+    /**
+     * Set fields for insert, update
+     */
+    protected $allowedFields = [
+        //
+    ];
+
+    //protected $primaryKey = 'id';
+
+    protected $returnType = '{entity}';
+
+    //protected $useSoftDeletes = true;
+
+    //protected $useTimestamps = true;
+
+    //protected $createdField  = 'created_at';
+    //protected $updatedField  = 'updated_at';
+    //protected $deletedField  = 'deleted_at';
+
+    protected $validationRules = [
+        //foo
+    ];
+
+    protected $validationMessages = [
+        //foo
+    ];
+
+    //protected $skipValidation = false;
+
+    /**
+     * Emit trigger event
+     */
+    protected $beforeInsert = [
+        // Name of function
+    ];
+
+    /**
+     * Emit trigger event
+     */
+    protected $beforeUpdate = [
+        // Name of function
+    ];
+}

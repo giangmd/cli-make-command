@@ -1,0 +1,27 @@
+{
+    "name": "ewci/cli-make-command",
+    "description": "Package to help making the command class, controller class, filter class, entity class, model class",
+    "keywords": [
+        "codeigniter",
+        "codeigniter4",
+        "cli",
+        "make"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "giangmd",
+            "email": "giangmd93@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "ewci\\CMC\\": "src/"
+        }
+    }
+}
