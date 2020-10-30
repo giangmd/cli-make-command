@@ -160,3 +160,5 @@ Create a new filter file.
     -n          Set filter namespace
     --force     Set this flag to overwrite existing files on destination.
     ```
+
+### Enjoy!

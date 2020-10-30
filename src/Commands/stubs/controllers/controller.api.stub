@@ -2,9 +2,9 @@
 
 namespace {ns};
 
-use App\Controllers\BaseController;
+use CodeIgniter\RESTful\ResourceController;
 
-class {name} extends BaseController
+class {name} extends ResourceController
 {
     /**
      * Display a listing of the resource.
@@ -12,7 +12,9 @@ class {name} extends BaseController
      */
     public function index()
     {
-        //
+        return $this->respond([
+            //
+        ]);
     }
 
     /**
@@ -21,36 +23,47 @@ class {name} extends BaseController
      */
     public function store()
     {
-        //
+        return $this->respondCreated([
+            //
+        ]);
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  null  $id
+     * @return array|mixed
      */
-    public function show($id)
+    public function show($id = null)
     {
-        //
+        return $this->respond([
+            //
+        ]);
     }
 
     /**
      * Update the specified resource in storage.
      *
-     * @param  int  $id
+     * @param  null  $id
+     * @return array|mixed
      */
-    public function update($id)
+    public function update($id = null)
     {
-        //
+        return $this->respondUpdated([
+            //
+        ]);
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  null  $id
+     * @return array|mixed
      */
-    public function destroy($id)
+    public function destroy($id = null)
     {
-        //
+        return $this->respondDeleted([
+            //
+        ]);
     }
 }
