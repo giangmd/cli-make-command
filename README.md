@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](https://poser.pugx.org/ewci/cli-make-command/v)](//packagist.org/packages/ewci/cli-make-command) [![Total Downloads](https://poser.pugx.org/ewci/cli-make-command/downloads)](//packagist.org/packages/ewci/cli-make-command) [![License](https://poser.pugx.org/ewci/cli-make-command/license)](//packagist.org/packages/ewci/cli-make-command)
 
-CLI-Make-Command is based on CodeIgniter4. It will help you generate template files (Command line, Controller, Filter, Entity, Model) more quickly when developing projects with CodeIgniter4.
+CodeIgniter CLI Make Command is based on CodeIgniter version 4. It will help you generate template files (Command line, Controller, Filter, Entity, Model) more quickly when developing projects with CodeIgniter4.
 
 This is an idea got from Laravel Framework as well.
 
